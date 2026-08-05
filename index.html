@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Era Music Entertainment</title>
-    <!-- Social Icon Font Library -->
+    <!-- Social Icon Font Library Required to Load Icons -->
     <link rel="stylesheet" href="https://cloudflare.com">
     <style>
         body { 
@@ -26,9 +26,9 @@
         .bio { color: #aaaaaa; line-height: 1.6; margin-bottom: 40px; }
         .btn { display: inline-block; background-color: #ffffff; color: #000000; text-decoration: none; padding: 16px 32px; border-radius: 6px; font-weight: 700; text-transform: uppercase; margin-bottom: 40px; }
         .btn:hover { background-color: #d4af37; color: #ffffff; }
-        .socials { display: flex; justify-content: center; gap: 30px; font-size: 1.8rem; }
-        .social-link { color: #888888; text-decoration: none; }
-        .social-link:hover { color: #ffffff; }
+        .socials { display: flex; justify-content: center; gap: 30px; }
+        .social-link { color: #ffffff; font-size: 2.2rem; text-decoration: none; transition: color 0.3s; }
+        .social-link:hover { color: #d4af37; }
     </style>
 </head>
 <body>
@@ -41,10 +41,10 @@
         </p>
         <a href="mailto:moneyeramusicent@gmail.com" class="btn">Submit Demos / Inquiries</a>
         <div class="socials">
-            <a href="https://instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://youtube.com" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://x.com" class="social-link" target="_blank"><i class="fab fa-x-twitter"></i></a>
-            <a href="https://facebook.com" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" class="social-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" class="social-link" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://x.com" class="social-link" target="_blank" aria-label="X Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://facebook.com" class="social-link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
         </div>
     </div>
 </body>
