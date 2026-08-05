@@ -25,8 +25,24 @@
         .btn { display: inline-block; background-color: #ffffff; color: #000000; text-decoration: none; padding: 16px 32px; border-radius: 6px; font-weight: 700; text-transform: uppercase; margin-bottom: 40px; }
         .btn:hover { background-color: #d4af37; color: #ffffff; }
         .socials { display: flex; justify-content: center; gap: 30px; }
-        .social-link { fill: #ffffff; width: 35px; height: 35px; display: inline-block; transition: fill 0.3s; }
-        .social-link:hover { fill: #d4af37; }
+        .social-link { 
+            display: inline-block; 
+            width: 35px; 
+            height: 35px; 
+            transition: transform 0.3s;
+        }
+        .social-link:hover {
+            transform: scale(1.1);
+        }
+        .social-link svg {
+            width: 100%;
+            height: 100%;
+            fill: #ffffff;
+            transition: fill 0.3s;
+        }
+        .social-link:hover svg {
+            fill: #d4af37;
+        }
     </style>
 </head>
 <body>
